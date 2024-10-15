@@ -1,1 +1,4 @@
-/mycampus/calendar*
+static/web/mycampus/*
+!static/web/mycampus/contact-us.html
+!static/web/mycampus/index.html
+!static/web/mycampus/calendar.html
