@@ -1,0 +1,900 @@
+/* This CSS sets the default styles for portlets. */
+
+/* ---------- Portlet wrapper and icons ---------- */
+
+.portlet {
+	text-align: left;
+	border:1px solid #eee;
+	border-radius:4px;
+	margin:4px;
+	
+}
+.portlet-content-container{
+	position:relative;}
+
+#p_p_id_QuickLaunch2_WAR_quicklaunchclient_ .portlet-content-container {
+    position: inherit;
+}
+.fol-name{
+	display:inline-block;
+	width:50px;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;}
+
+.freeform .portlet {
+	margin-bottom: 0;
+}
+
+body.portlet {
+	border: none;
+}
+
+.portlet-topper {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-bottom: 1px solid #E5E5E5;
+	clear: both;
+	font-family: Segoe UI, Arial, Helvetica, sans-serif ;
+	font-size: 21px ;
+	font-weight: normal ;
+	padding: 6px;
+	position: relative;
+}
+
+.portlet-title {
+	color: #707171;
+	display: block;
+	font-size: 21px;
+	font-weight: normal;
+	margin: 0;
+	min-width: 50%;
+	padding: 0;
+	height:35px;
+	overflow:hidden;
+	margin-right:80px;
+	white-space: nowrap;
+  	text-overflow: ellipsis;
+}
+
+.portlet-title img {
+	vertical-align: middle;
+}
+
+.portlet-icons {
+	margin: 0;
+	position: absolute;
+	right: 5px;
+	text-align: right;
+	top: 5px;
+}
+
+.portlet-icons .nobr {
+	display: block;
+	float: left;
+	padding: 1px;
+	min-width:16px;
+}
+
+.portlet-content, .portlet-minimized .portlet-content-container {
+	padding: 12px 10px 10px;
+}
+
+.portlet-minimized .portlet-content {
+	padding: 0;
+}
+
+.portlet-icon-back {
+	background: url(../images/arrows/01_left.png) no-repeat 0 50%;
+	font-weight: bold;
+	padding: 3px 0 3px 18px;
+}
+
+/* ---------- Panel Page ---------- */
+
+.lfr-panel-page {
+	width: 100%;
+}
+
+.lfr-panel-page .portlet-title {
+	font-size: 13px;
+}
+
+.lfr-panel-page #content-wrapper {
+	margin: 0;
+	width: auto;
+}
+
+.lfr-panel-page .lfr-add-content h2 span {
+	background-color: #D3DADD;
+}
+
+/* ---------- Standard styles defined in the JSR 168 ---------- */
+
+/* ---------- Fonts ---------- */
+
+/* ---------- Font attributes for the 'normal' fragment font ---------- */
+
+.portlet-font {
+}
+
+/* ---------- Font attributes similar to the .portlet-font but the color is lighter ---------- */
+
+.portlet-font-dim {
+}
+
+/* ---------- Messages ---------- */
+
+/* ---------- Status of the current operation ---------- */
+
+/* ---------- Help messages, general additional information, etc. ---------- */
+
+.portlet-msg-info{
+clear:both;
+background: #d9edf7 url(../images/messages/info.png) no-repeat 10px center;
+padding: 15px 15px 15px 35px;
+margin-bottom: 20px;
+border: 1px solid #bce8f1;
+border-radius: 4px;
+display:block;
+}
+
+.portlet-msg-status {
+background: #d9edf7 url(../images/messages/status.png) no-repeat 10px center;
+padding: 15px 15px 15px 35px;
+margin-bottom: 20px;
+border: 1px solid #bce8f1;
+border-radius: 4px;
+}
+
+.portlet-msg-info.pending {
+	background-image: url(../images/common/time.png);
+}
+
+/* ---------- Error messages ---------- */
+
+.portlet-msg-error {
+	background: #f2dede url(../images/messages/error.png) no-repeat 10px center;
+padding: 15px 15px 15px 35px;
+margin-bottom: 20px;
+border: 1px solid #ebccd1;
+display:block;
+border-radius: 4px;}
+
+/* ---------- Warning messages ---------- */
+
+.portlet-msg-alert {
+	background: #fcf8e3 url(../images/messages/alert.png) no-repeat 10px center;
+padding: 15px 15px 15px 35px;
+margin-bottom: 20px;
+border: 1px solid #faebcc;
+border-radius: 4px;
+}
+
+/* ---------- Success messages ---------- */
+
+.portlet-msg-success {
+	background: #dff0d8 url(../images/messages/success.png) no-repeat 10px center;
+	padding: 15px 15px 15px 35px;
+	margin-bottom: 20px;
+	border: 1px solid #d6e9c6;
+	border-radius: 4px;
+	display:block;
+	width:85%;
+}
+
+/* ---------- Sections ---------- */
+
+/* ---------- Table or section header ---------- */
+
+.portlet-section-header {
+}
+
+.portlet-section-header th input[type="checkbox"] {
+	margin-top:-5px;
+}
+
+/* ---------- Normal text in a table cell ---------- */
+
+.portlet-section-body {
+}
+
+.portlet-section-body td {
+}
+
+/* ---------- Text in every other row in the cell ---------- */
+
+.portlet-section-alternate {
+}
+
+.portlet-section-alternate td {
+}
+
+.portlet-section-alternate-hover td, .portlet-section-body-hover td {
+}
+
+.portlet-section-body td td, .portlet-section-body-hover td td {
+}
+
+.portlet-section-alternate td td, .portlet-section-alternate-hover td td {
+}
+
+/* ---------- Text in a selected cell range ---------- */
+
+.portlet-section-selected, .portlet-section-selected a {
+	background: #727C81;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.portlet-section-selected a:hover, .portlet-section-selected a:focus {
+	background-color: #727C81;
+}
+
+/* ---------- Text of a subheading ---------- */
+
+.portlet-section-subheader {
+}
+
+/* ---------- Table or section footnote ---------- */
+
+.portlet-section-footer {
+}
+
+/* ---------- Text that belongs to the table but does not fall in one of the other categories (e.g. explanatory or help text that is associated with the section) ---------- */
+
+.portlet-section-text {
+}
+
+/* ---------- Forms ---------- */
+
+/* ---------- Text used for the descriptive label of the whole form (not the labels for fields) ---------- */
+
+.portlet-form-label {
+}
+
+/* ---------- Text of the user-input in an input field ---------- */
+
+.portlet-form-input-field {
+}
+
+/* ---------- Text on a button ---------- */
+
+.portlet-form-button {
+}
+
+/* ---------- Text that appears beside a context dependent action icon ---------- */
+
+.portlet-icon-label {
+}
+
+/* ---------- Text that appears beside a 'standard' icon (e.g. Ok, or Cancel) ---------- */
+
+.portlet-dlg-icon-label {
+}
+
+/* ---------- Text for a separator of fields (e.g. checkboxes, etc.) ---------- */
+
+.portlet-form-field-label {
+}
+
+/* ---------- Text for a field (not input field, e.g. checkboxes, etc.) ---------- */
+
+.portlet-form-field {
+}
+
+/* ---------- Menus ---------- */
+
+/* ---------- General menu settings such as background color, margins, etc. ---------- */
+
+.portlet-menu {
+}
+
+/* ---------- Normal, unselected menu item ---------- */
+
+.portlet-menu-item {
+}
+
+/* ---------- Selected menu item ---------- */
+
+.portlet-menu-item-selected {
+}
+
+/* ---------- Normal, unselected menu item when the mouse hovers over it ---------- */
+
+.portlet-menu-item-hover {
+}
+
+/* ---------- Selected menu item when the mouse hovers over it ---------- */
+
+.portlet-menu-item-hover-selected {
+}
+
+/* ---------- Normal, unselected menu item that has sub-menus ---------- */
+
+.portlet-menu-cascade-item {
+}
+
+/* ---------- Selected sub-menu item that has sub-menus ---------- */
+
+.portlet-menu-cascade-item-selected {
+}
+
+/* ---------- Descriptive text for the menu (e.g. in a help context below the menu) ---------- */
+
+.portlet-menu-description {
+}
+
+/* ---------- Menu caption ---------- */
+
+.portlet-menu-caption {
+}
+
+/* ---------- Miscellaneous portlet styles ---------- */
+
+.restricted, .restricted td {
+	background: #FDD;
+	border: none;
+}
+
+.alt.restricted td {
+	background-color: #FFC0C0;
+}
+
+.hover.restricted td {
+	background-color: #D3BDC0;
+}
+
+.restricted * {
+	color: #727C81;
+}
+
+.restricted td.col-1, .alt.restricted td.col-1 {
+	background-image: url(../images/messages/error.png);
+	background-position: 5px 50%;
+	background-repeat: no-repeat;
+	padding-left: 28px;
+}
+
+/* ---------- Permissions ---------- */
+
+.results-row.lfr-role .col-1, .results-row.hover.lfr-role .col-1 {
+	background-image: url();
+	background-position: 5px 50%;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+.results-row.lfr-role-guest .col-1, .results-row.hover.lfr-role-guest .col-1 {
+	background-image: url(../images/common/guest_icon.png);
+}
+
+.results-row.lfr-role-regular .col-1, .results-row.hover.lfr-role-regular .col-1 {
+	background-image: url(../images/common/user_icon.png);
+}
+
+.results-row.lfr-role-community .col-1, .results-row.hover.lfr-role-community .col-1 {
+	background-image: url(../images/common/community_icon.png);
+}
+
+.results-row.lfr-role-organization .col-1, .results-row.hover.lfr-role-organization .col-1 {
+	background-image: url(../images/common/organization_icon.png);
+}
+
+/* ---------- Miscellaneous component styles ---------- */
+
+/* ---------- Add content dialog ---------- */
+
+.lfr-portlet-item, .lfr-portlet-item p a {
+	font-size: 1em;
+}
+
+/* ---------- Actions button ---------- */
+
+.lfr-actions {
+}
+
+.lfr-actions, .lfr-actions ul {
+	background: #FFF url(../images/forms/button.png) repeat-x 0 100%;
+	border: 1px solid;
+	border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+}
+
+.lfr-actions ul {
+	bottom: -1px;
+}
+
+.lfr-actions .lfr-trigger, .lfr-actions .lfr-trigger, .lfr-actions .lfr-trigger strong {
+	background: none;
+}
+
+.lfr-actions .lfr-trigger strong span {
+	background: url(../images/common/action.png) no-repeat 5px 50%;
+}
+
+.lfr-actions.left .lfr-trigger strong span {
+	background: url(../images/common/action_right.png) no-repeat 98% 50%;
+}
+
+.lfr-actions .lfr-trigger li {
+	background: transparent;
+	border-bottom: 1px solid #DEDEDE;
+	padding: 2px;
+}
+
+.lfr-actions .lfr-trigger li a {
+	padding: 5px 10px 5px 25px;
+}
+
+.lfr-actions .lfr-trigger li a:hover {
+	background-color: #828F95;
+	color: #FFF;
+}
+
+.lfr-actions .lfr-trigger li a img {
+	left: 3px;
+	position: absolute;
+}
+
+.lfr-actions .lfr-trigger li.last {
+	border-bottom: none;
+}
+
+.lfr-actions.portlet-options {
+	background: none;
+	border: none;
+	float: left;
+}
+
+.lfr-actions.portlet-options .lfr-trigger {
+	padding: 0;
+}
+
+.lfr-actions.portlet-options .lfr-trigger strong {
+	min-width: 0;
+	padding: 1px;
+}
+
+.lfr-actions.portlet-options .lfr-trigger strong span {
+	background-image: url(../images/portlet/options.png);
+	background-position: 0 0;
+	display: block;
+	height: 16px;
+	padding: 0;
+	text-indent: -9999em;
+	width: 16px;
+}
+
+.visible.portlet-options .lfr-trigger strong span {
+	background-image: url(../images/portlet/options_selected.png);
+}
+
+/* ---------- Calendar taglib ---------- */
+
+.taglib-calendar tr.portlet-section-header th, .taglib-calendar tr td {
+	border: none;
+}
+
+.taglib-calendar tr td a {
+	background-color: #F0F5F7;
+	border: 1px solid #FFF;
+	border-bottom: none;
+	border-left: none;
+	display: block;
+	height: 15px;
+	padding: 5px 0;
+}
+
+.taglib-calendar table td {
+	border-width: 0;
+}
+
+.taglib-calendar tr td a:hover {
+	background-color: #727C81;
+	color: #FFF;
+}
+
+.taglib-calendar .calendar-current-day, .taglib-calendar .calendar-current-day a {
+	background-color: #FFF;
+}
+
+.taglib-calendar .calendar-current-day a {
+	border: 1px solid #727C81;
+	color: #369;
+	text-decoration: underline;
+}
+
+.taglib-calendar tr td.calendar-inactive {
+	background-color: #FFF;
+	color: #B5BFC4;
+}
+
+.taglib-calendar tr th {
+	border-bottom-color: #D7D7D7;
+}
+
+.ie .taglib-calendar tr td.first a {
+	border-right: none;
+}
+
+
+
+
+
+
+/*===============Image Gallery===============*/
+.checkAll {
+    padding: 2px 8px 6px !important;
+                margin-right: 5px;
+}
+
+/*-----------Top Tabs----------------
+ 
+#p_p_id_31_ .ui-tabs, #p_p_id_20_ .ui-tabs {
+    background: none repeat scroll 0 0 #DEF1FF ;
+    padding-top:5px ;
+	padding-left:5px;
+    border:none ;
+    height:45px;
+}
+#p_p_id_31_ .ui-tabs li a, #p_p_id_20_ .ui-tabs li a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border:none ;
+    color: #000000 ;
+    font: 14px Segoe UI,Arial,Helvetica,sans-serif ;
+	padding: 10px 20px 13px 20px;
+}
+#p_p_id_31_ .ui-tabs li a:hover, #p_p_id_20_ .ui-tabs li a:hover{
+                text-decoration:none;
+				background:#fff;
+				
+}
+#p_p_id_31_ .ui-tabs li.current a, #p_p_id_20_ .ui-tabs li.current a{
+    background: none repeat scroll 0 0 #FFFFFF ;
+                padding:0;
+}
+ 
+#p_p_id_31_ ul.tabs li.current, #p_p_id_20_ ul.tabs li.current {
+                                border:none;
+                                border-radius:0;
+								padding: 9px 20px;
+                    
+ 
+}*/
+
+.ui-tabs, .ui-tabs {
+    background: none repeat scroll 0 0 #DEF1FF;
+}
+
+
+ul.tabs {
+    border-bottom: 0px solid #DDDDDD;
+    height: auto;
+    list-style: none outside none;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%;
+}
+.ui-tabs li a, .ui-tabs li a {
+    background: none repeat scroll 0 0 #DEF1FF;
+    border: medium none;
+}
+.ui-tabs li.current a, .ui-tabs li.current a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0;
+}
+
+html ul.tabs li.current, html ul.tabs li.current a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+ul.tabs li.current, ul.tabs li.current {
+    border: medium none;
+    border-radius: 0;
+    margin-left: 3px;
+    margin-right: 3px;	
+    margin-top: 2px;
+    padding: 15px 20px 3px;
+	min-height:30px;
+}
+
+ul.tabs li {
+    border: 1px solid rgba(0, 0, 0, 0);
+    float: left;
+    min-height: 50px;
+    line-height: 31px;
+    margin: 0 5px -1px 0;
+    padding: 0;
+    position: relative;
+}
+
+ul.tabs li a {
+    color: #000000;
+    display: block;
+    outline: medium none;
+    padding: 15px 12px 14px;
+    text-decoration: none;
+}
+
+/*-----------Permissions and Edit icon-----------*/
+.imgPermissions a {
+    background-image: url(../images/portlet/gallery.png);
+    background-position: -7px -62px;
+    background-repeat: no-repeat;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    z-index: 9999;
+}
+.imgPermissions a img, .imgEdit span a img {
+    display: none;
+}
+.imgEdit a {
+    background-image: url(../images/portlet/gallery.png);
+    background-position: -28px -62px;
+    background-repeat: no-repeat;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    z-index: 9999;
+}
+.imgEdit {padding-right: 14px;}
+ 
+/*----------Pagination-----------*/
+.taglib-page-iterator {
+    border-bottom: 1px solid #EDEDED;
+    border-top: 1px solid #EDEDED;
+    color: #828282;
+    font-size: 12px;
+    margin: 15px 0;
+    padding: 10px;
+}
+.page-links .first, .page-links .previous, .page-links .next, .page-links .last {
+    border: medium none !important;
+    float: left;
+    height: 13px;
+    padding: 2px 7px !important;
+    text-indent: -999em;
+    width: 5px;
+}
+.page-links {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E0E0E0;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    position: relative;
+    width: auto;
+}
+ 
+/*----------Sort by--------------*/
+.sort-heading {
+    font-size: 12px;
+    padding: 3px 10px;      
+}
+.sort-by li a {
+    font-size: 12px !important;
+}
+ul.sort-by li {
+    background: none repeat scroll 0 0 #E9F6FF;
+    border-bottom: 1px solid #BAE0FC;
+    border-top: 1px solid #BAE0FC;
+    padding:4px 15px;
+}
+ul.sort-by li:first-child {
+    border-left: 1px solid #BAE0FC;
+}
+ul.sort-by li:last-child {
+    border-right: 1px solid #BAE0FC;
+}
+ 
+ 
+/*-----------Results Table Row-------------*/
+.results-grid{border:none; padding:0;}
+ 
+.ui-autocomplete-even, .results-row td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 5px 10px;
+                border-top:1px solid #ededed;
+				vertical-align:top;
+}
+.ui-autocomplete-odd, .results-row.alt td {
+    background: none repeat scroll 0 0 #FFFFFF;
+                border-bottom:1px solid #ededed;
+}
+table.taglib-search-iterator tr:hover td{
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+ 
+.taglib-search-iterator .col-2 a img {
+    padding: 5px 8px 0;
+}
+ 
+/*-------------Folder Action-------------*/
+.lfr-actions {
+    background-image: url("../images/portlet/gallery.png");
+    background-position: -220px -13px ;
+    background-repeat: no-repeat ;
+    border: medium none;
+    height: 25px;
+    text-indent: -999em;
+}
+ 
+.lfr-actions .lfr-trigger strong {
+    width: 30px;
+    min-width: 30px;
+}
+.lfr-component.lfr-menu-list ul {
+    background: none repeat scroll 0 0 #F8F8F8;
+	position:relative;
+	z-index:999;
+}
+.lfr-component.lfr-menu-list ul li {
+    border: medium none;
+}
+ 
+/*---------Add Image PopUp-------------*/
+.ui-dialog .ui-dialog-titlebar {
+    background: none repeat scroll 0 0 #267BBD;
+}
+.crop-text{padding:10px 0;}
+ 
+.main-container .jcrop-holder {
+    margin: 0 15px;
+}
+.main-container .jcrop-holder {
+    border: 2px solid #FFFF00;
+    margin: 0 15px;
+}
+.image-popup .buttons-container ul li a{
+                color:#666666;
+}
+.image-popup .buttons-container ul li {
+                -moz-box-shadow: inset 0px 1px 0px 0px #ffffff !important;
+                -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff !important;
+                box-shadow: inset 0px 1px 0px 0px #ffffff !important;
+                background-color: #f9f9f9 !important;
+                -moz-border-radius: 6px !important;
+                -webkit-border-radius: 6px !important;
+                border: 1px solid #dcdcdc !important;
+                display: inline-block !important;
+                cursor: pointer !important;
+                color: #666666 !important;
+                font-size: 14px !important;
+                font-weight: normal !important;
+                padding: 6px 15px !important;
+                text-decoration: none !important;
+                text-shadow: 0px 1px 0px #ffffff;
+                margin-left:5px;
+}
+.image-popup .buttons-container ul li:hover {
+                background-color: #e9e9e9 !important;
+}
+.buttons-container.float-container {
+    border-top: 1px solid #e2e2e2;
+}
+.lfr-component.taglib-icon-list {
+    margin: 10px;
+}
+#fancybox{width:450px;height:255px;}
+ 
+/*----------Upload Image PopUp--------------------*/
+.use-fallback.using-classic-uploader {
+    float: right;
+    position: relative;
+    right: 15px;     
+}
+
+.classic-image-uploader, .classic-doc-uploader {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E9E9E9;
+    padding: 10px;          
+}
+.multi-image-uploader, .multi-doc-uploader {
+   background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E9E9E9;
+    padding: 10px;
+                
+}
+.using-multi-uploader{ margin-top:-68px;}
+.top-border{
+                border-top:1px solid #E9E9E9;
+                padding-top:10px;
+}
+ 
+
+/*===============End Image Gallery===============*/
+
+
+/*===============Landing Page Portlet===============*/
+
+.column-1 .lpc-move-up, .column-2 .lpc-move-up, .column-3 .lpc-move-up, .column-4 .lpc-move-up,.column-5 .lpc-move-up,.column-6 .lpc-move-up{ display:none;}
+.column-1 .lpc-move-down, .column-2 .lpc-move-down, .column-3 .lpc-move-down, .column-4 .lpc-move-down, .column-5 .lpc-move-down, .column-6 .lpc-move-down{ display:none;}
+.column-1 .lpc-user-group input[type="text"], .column-2 .lpc-user-group input[type="text"], .column-3 .lpc-user-group input[type="text"],
+.column-4 .lpc-user-group input[type="text"], .column-5 .lpc-user-group input[type="text"], .column-6 .lpc-user-group input[type="text"] { width:80px !important;}
+.column-1 .lpc-url input[type="text"], .column-2 .lpc-url input[type="text"], .column-3 .lpc-url input[type="text"], .column-4 .lpc-url input[type="text"], .column-5 .lpc-url input[type="text"], .column-6 .lpc-url input[type="text"] { width:80px !important;}
+.column-1 .lpc-user-name input[type="text"], .column-2 .lpc-user-name input[type="text"], .column-3 .lpc-user-name input[type="text"], .column-4 .lpc-user-name input[type="text"], .column-5 .lpc-user-name input[type="text"], .column-6 .lpc-user-name input[type="text"] { width:100px !important;}
+.column-1 .lpc-url-name input[type="text"], .column-2 .lpc-url-name input[type="text"], .column-3 .lpc-url-name input[type="text"], .column-4 .lpc-url-name input[type="text"], .column-5 .lpc-url-name input[type="text"], .column-6 .lpc-url-name input[type="text"] { width:100px !important;}
+
+/*===============End Landing Page Portlet===============*/
+
+
+#p_p_id_20_ .form-text{ width:200px !important;}
+
+
+/*===============Email Dashoard Portlet===============*/
+#portlet-wrapper-mailportlet_WAR_MailPortlet ul.portletTabs li a { 
+ font-size: 12px !important;
+    padding: 5px 5px 5px 5px;
+}
+
+/*===============End Email Dashoard Portlet===============*/
+
+
+
+/*===============Drive Portlet===============*/
+
+.column-1 #portlet-wrapper-20 .col-3, .column-1 #portlet-wrapper-20 .col-4,
+.column-2 #portlet-wrapper-20 .col-3, .column-2 #portlet-wrapper-20 .col-4,
+.column-3 #portlet-wrapper-20 .col-3, .column-3 #portlet-wrapper-20 .col-4,
+.column-4 #portlet-wrapper-20 .col-3, .column-4 #portlet-wrapper-20 .col-4,
+.column-5 #portlet-wrapper-20 .col-3, .column-5 #portlet-wrapper-20 .col-4
+{ display:none;}
+
+/*===============End Drive Portlet===============*/
+
+
+/*===============My Community Portlet===============*/
+
+.column-1 #portlet-wrapper-29 .col-3, .column-1 #portlet-wrapper-29 .col-4, .column-1 #portlet-wrapper-29 .col-5, .column-1 #portlet-wrapper-29 .col-6,
+.column-2 #portlet-wrapper-29 .col-3, .column-2 #portlet-wrapper-29 .col-4, .column-2 #portlet-wrapper-29 .col-5, .column-2 #portlet-wrapper-29 .col-6,
+.column-3 #portlet-wrapper-29 .col-3, .column-3 #portlet-wrapper-29 .col-4, .column-3 #portlet-wrapper-29 .col-5, .column-3 #portlet-wrapper-29 .col-6,
+.column-4 #portlet-wrapper-29 .col-3, .column-4 #portlet-wrapper-29 .col-4, .column-4 #portlet-wrapper-29 .col-5, .column-4 #portlet-wrapper-29 .col-6,
+.column-5 #portlet-wrapper-29 .col-3, .column-5 #portlet-wrapper-29 .col-4, .column-5 #portlet-wrapper-29 .col-5, .column-5 #portlet-wrapper-29 .col-6,
+.column-6 #portlet-wrapper-29 .col-3, .column-6 #portlet-wrapper-29 .col-4{ display:none;}
+
+/*===============End My Community Portlet===============*/
+
+/*===============Community Portlet===============*/
+
+.column-1 #portlet-wrapper-134 .col-3, .column-1 #portlet-wrapper-134 .col-4, .column-1 #portlet-wrapper-134 .col-5, 
+.column-2 #portlet-wrapper-134 .col-3, .column-2 #portlet-wrapper-134 .col-4, .column-2 #portlet-wrapper-134 .col-5, 
+.column-3 #portlet-wrapper-134 .col-3, .column-3 #portlet-wrapper-134 .col-4, .column-3 #portlet-wrapper-134 .col-5,
+.column-4 #portlet-wrapper-134 .col-3, .column-4 #portlet-wrapper-134 .col-4, .column-4 #portlet-wrapper-134 .col-5,
+.column-5 #portlet-wrapper-134 .col-3, .column-5 #portlet-wrapper-134 .col-4, .column-5 #portlet-wrapper-134 .col-5, 
+.column-6 #portlet-wrapper-134 .col-3, .column-6 #portlet-wrapper-134 .col-4{ display:none;}
+
+/*===============End Community Portlet===============*/
+
+
+
+.column-1 #portlet-wrapper-19 .col-3, .column-1 #portlet-wrapper-19 .col-4,
+.column-2 #portlet-wrapper-19 .col-3, .column-2 #portlet-wrapper-19 .col-4,
+.column-3 #portlet-wrapper-19 .col-3, .column-3 #portlet-wrapper-19 .col-4,
+.column-4 #portlet-wrapper-19 .col-3, .column-4 #portlet-wrapper-19 .col-4,
+.column-5 #portlet-wrapper-19 .col-3, .column-5 #portlet-wrapper-19 .col-4,
+.column-6 #portlet-wrapper-19 .col-3, .column-6 #portlet-wrapper-19 .col-4{display:none;}
+
+
+
+.columns-3 #_20_keywords1 {width:160px;}
+
+#Tools-Search, #Administration-Search, #Dashboard-Search{
+	display:none !important;}
+	
+	
+/*=============== Wall Portlet===============*/	
+#p_p_id_5_WAR_wolportlet_ .avatar{ max-height:110px;}
+/*=============== End Wall Portlet===============*/
+
+
+.portlet-polls-display .ui-autocomplete-even, .portlet-polls-display .results-row td{ padding:5px 10px !important;}
+
+#_19_tabs1incomingTabsSection  input[type="text"], #_19_tabs1incomingTabsSection input[type="password"] { width:90% !important;}
+#_19_emailAddress {width:90% !important;}
+#_19_outEmailAddress  {width:90% !important;}
+#_19_outCustomSettings input[type="text"], #_19_outCustomSettings input[type="password"] { width:90% !important;}
+#_19_tabs1incomingTabsSection .lfr-label { width:150px;}
+#_19_tabs1outgoingTabsSection .lfr-label { width:150px;}
+#_19_mailingListSettings .lfr-label { width:150px;}
