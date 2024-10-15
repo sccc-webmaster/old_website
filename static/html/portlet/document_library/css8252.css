@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.folder-docPermissions {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -126px -9px !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    float: left;
+    margin: 0 5px 0 0 !important;
+    text-indent: -999em;
+    width: 40px !important;
+    padding:5px 0 !important;
+}
+.folder-docDownload {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -48px -9px !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    float: left;
+    margin: 0 5px !important;
+    text-indent: -999em;
+    width: 40px !important;
+    padding:5px 0 !important;
+}
+.folder-docDelete {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -87px -9px !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    text-indent: -999em;
+    width: 40px !important;
+    margin: 0 5px 0 0 !important;
+    float: left;
+    padding:5px 0 !important;
+}
+.position {
+	display: block;
+	height: 20px;
+	left: -999em;
+	position: absolute;
+	width: 100px;
+}
+.docViewAll {
+    float: right;
+    margin: 10px 0;
+}
+.show-webdav {
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -290px -13px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #EDEDED;
+    border-top: 1px solid #EDEDED;
+    padding: 2px 0 5px 30px;
+    margin-top:35px;
+}
+.folder-docUpload {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -246px -13px !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    margin: 0 5px 0 0 !important;
+    text-indent: -999em;
+    width: 40px !important;
+    padding:5px 0 !important;
+}
+
+/*#p_p_id_20_ .portlet-section-header {
+	display:none;
+}*/
+#p_p_id_20_ .ui-tabs {margin-top:10px;}
+
+.sort-heading{float: left; padding: 5px 10px;}
+
+ul.sort-by li {
+    background: none repeat scroll 0 0 #DDDDDD;
+    padding: 5px 20px;
+}
+.sort-by li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding-right: 25px;
+}
+
+input.docBrowse {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 4px 0;
+    width: 300px !important;
+}
+
+@media all and (max-width: 400px) and (min-width:300px){
+#_20_keywords1{width: 140px;}
+
+}
+
+
+
+.use-fallback.using-multi-uploader {
+    padding-right: 10px;
+}
+
+#_20_fileList{ line-height:30px;}
+
+.ui-dialog-container #_20_singlefileUpload{display:none;}
+
+.docSearchBtn {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url("../../icons/gallery.png") !important;
+    background-position: -38px -127px !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    height: 29px !important;
+    margin-left: -27px !important;
+    margin-top: -2px !important;
+    padding: 0 !important;
+    position: absolute !important;
+    text-indent: -999em !important;
+    width: 22px !important;
+}
+input[type="img"] {
+    cursor: pointer;
+}
+
+button.ui-multiselect {
+    word-wrap: break-word;
+    padding-right: 25px;
+}
+
+button.ui-multiselect span:last-child {
+    padding-right: 25px;
+}
+
+@media all and (min-width:300px) and (max-width:699px) {
+ #p_p_id_20_ .rpe-tabs {
+    float: right;
+    position: relative;}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.results-header .sort-column .result-column-name a {
+padding-right: 10px;
+}
+.results-grid .taglib-search-iterator th.sort-desc {
+padding-right: 15px;
+}
+}
